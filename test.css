@@ -1,0 +1,16 @@
+.swing {
+    transition: all linear;
+animation :  rot 2sec infinite
+}
+
+@keyframes rot {
+    0%{ transform: rotate(-10deg);}
+    100%{ transform: rotate(10deg);}
+} 
+
+.img {
+    border: 1px red solid;
+    transform: rotate(10deg);
+    /* box-shadow: 10px 4px 10px 15px (red, orange); */
+    box-shadow: 22px 20px 2px 1px rgba(134, 134, 236, 0.32);
+}
