@@ -8,7 +8,7 @@ setInterval(playAudio, 3000);
 function pauseAudio() { 
   x.pause(); 
 } 
-
+const btn1 = document.querySelector('#btn')
 const img = document.getElementById('img')
   const btn = document.querySelector('button')
   const display =document.querySelector('#display')
@@ -18,4 +18,4 @@ const img = document.getElementById('img')
 
   })
   btn.addEventListener('click' , playAudio)
-btn.addEventListener('click' , pauseAudio)
+btn1.addEventListener('click' , pauseAudio)
