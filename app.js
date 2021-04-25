@@ -18,3 +18,4 @@ const img = document.getElementById('img')
 
   })
   btn.addEventListener('click' , playAudio)
+btn.addEventListener('click' , pauseAudio)
